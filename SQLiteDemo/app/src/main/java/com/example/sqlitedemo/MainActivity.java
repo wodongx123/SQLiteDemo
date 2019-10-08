@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         values.put("name", "hello android");
         values.put("price", 200);
 
-        //再次添加数据，aaaaaa
+        //再次添加数据，aaaaaaaaa
         writableDatabase.insert("Book", null, values);
     }
 
